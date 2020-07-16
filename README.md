@@ -1,3 +1,4 @@
 # Cproj
 
-A description of this package.
+A swift package for the c library proj
+
