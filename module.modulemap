@@ -1,5 +1,17 @@
 module Cproj [system] {
   header "/usr/local/include/proj.h"
+  header "/usr/local/include/proj_api.h"
+  header "/usr/local/include/proj_config.h"
   link "proj"
   export *
 }
+
+// Not sure if I should include these other headers
+//module Cproj [system] {
+//  header "/usr/local/include/proj.h"
+//  header "/usr/local/include/proj_api.h"
+//  header "/usr/local/include/proj_config.h"
+//  link "proj"
+//  export *
+//}
+
