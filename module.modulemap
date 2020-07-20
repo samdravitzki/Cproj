@@ -1,7 +1,6 @@
 module Cproj [system] {
   header "/usr/local/include/proj.h"
   header "/usr/local/include/proj_api.h"
-  header "/usr/local/include/proj_config.h"
   link "proj"
   export *
 }
